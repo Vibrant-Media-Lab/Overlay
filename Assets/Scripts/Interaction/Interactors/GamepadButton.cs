@@ -7,11 +7,11 @@ namespace Interaction.Interactors
     public class GamepadButton : Interactor
     {
         [SerializeField]
-        private string buttonName;
+        private KeyCode buttonName;
 
         public override bool IsInteracting()
         {
-            return Input.GetButton(buttonName);
+            return Input.GetKey(buttonName);
         }
     }
 }
