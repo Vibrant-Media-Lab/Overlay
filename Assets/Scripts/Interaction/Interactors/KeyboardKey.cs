@@ -7,7 +7,7 @@ namespace Interaction.Interactors
     public class KeyboardKey : Interactor
     {
         [SerializeField]
-        private readonly KeyCode keycode;
+        private KeyCode keycode;
 
         public override bool IsInteracting()
         {

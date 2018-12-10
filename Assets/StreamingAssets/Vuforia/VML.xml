@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="think-a-tron-front" size="0.390000 0.284665" />
+    <ImageTarget name="filament_box" size="0.200000 0.201473" />
     <ImageTarget name="night_in_the_woods" size="0.174000 0.104400" />
     <ImageTarget name="EnvironmentalHumanitiesResearchSeminarPoster" size="0.279400 0.434991" />
   </Tracking>

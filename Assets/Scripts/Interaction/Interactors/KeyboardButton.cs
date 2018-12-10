@@ -7,7 +7,7 @@ namespace Interaction.Interactors
     public class KeyboardButton : Interactor
     {
         [SerializeField]
-        private readonly string buttonName;
+        private string buttonName;
 
         public override bool IsInteracting()
         {
